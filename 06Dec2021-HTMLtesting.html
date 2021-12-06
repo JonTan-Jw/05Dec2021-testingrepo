@@ -1,0 +1,28 @@
+<html> <!-- Every document starts with a html tag-->
+    <head> <!--used to define the tags searched on google, loading of style sheet is done here, loading of JS scripts beforehand is also done here-->
+        <title> Home - Jon's Test Home </title>
+        <!--meta tags describe the content that is on the page-->
+        <meta name = "keywords" content = "furniture, hotel, interior design"><!--people searching these keywords on google, our site is classified under these keywords, and included in the search-->
+        <meta name = "description" content = "Looking for a nice home design? Look no further!"><!--short description for the search engine to use-->
+        <!--External Styling (CSS): Using a CSS file outside of the HTML file to style the HTML file-->
+        <!--Since it is a separate sheet, you need to use a link tag. define the relationship, 
+        the type of file added, then the source of the file and the filen ame -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body> <!--defines all the elements rendered in the browser-->
+        <center><!--alignment, putting the element that you want in the center in this case-->
+            <h1> Welcome to Jon's Home</h1><!--content that you want to display, you can have multiple header elements, in this case, h1, depending on the number you, hierarchically-->
+            <h2 style="color: blue;"> Interior Design </h2> <!--Maximum number of headers - 6, every tag gets smaller-->
+            <!--Inline Styling (CSS):  just use style = "color:blue" for e.g. to change the color within the header tag-->
+                <a href="https://en.wikipedia.org/wiki/Interior_design" target=_blank> 
+                    <button class="btn"> Definition of interior design </button> <!--button tag, inside the tag, place the text on the button-->
+                </a> <!--a is the anchor tag, placing the element you are linking inside-->
+                <a href="https://qanvast.com/sg/interior-design-singapore" target=_blank> <!--second button to go to a different place-->
+                    <button class="btn1"> Qanvast for recommended designers </button> 
+                </a> 
+            <!-- Define the link you want to hyperlink to, allowing them to click and directly go to the link. Opening in a new tab instead of overriding the current window, user target=_blank-->
+                <p> This is where you put the interior design philosopy </p> <!--p is the paragraph tag-->
+                <img src="images/interiordesignphoto.jpeg" width="50%" /> <!--img is the image tag, src for source, followed by the folder storing the image, width for the size (larger=bigger)-->
+                <!--percentage based settings for size will allow the image to be resized based on user window size, taking up x% of the window that you defined-->
+    </body>
+</html>

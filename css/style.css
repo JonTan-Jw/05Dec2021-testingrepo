@@ -1,0 +1,45 @@
+/*External Styling (CSS) */
+h1
+    {
+        color: #82DDEF; 
+        font-family: Tahoma;
+    }
+            
+h3
+    {
+        color: #C05BE3; 
+        font-family: 'Lucida Sans';
+    }
+
+p
+    {
+        color: #5BE37C; 
+        font-family: Verdana;
+        font-size: 20px;
+    }
+
+.btn
+    {
+        background-color: #EE6653;
+        border: none;
+        padding: 10px;
+        color: #CEE35B; /*only changes text inside of button's color*/
+    }
+
+.btn:hover
+    {
+        background-color: #000000;
+    }
+
+.btn1
+    {
+        background-color: #A10DE7;
+        border: none;
+        padding: 10px;
+        color: #CEE35B; /*only changes text inside of button's color*/
+    }
+
+.btn1:hover
+    {
+        background-color: #000000;
+    }
